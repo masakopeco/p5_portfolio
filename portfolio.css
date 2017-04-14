@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    background-color: #b3aca8;
+}
+
+body{
+    height:100%;
+    font-family: 'Poiret One', cursive, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,  -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+    color: #333333;
+    /*text-shadow:.5px .5px 0px #666;*/
+    font-weight: 100;
+    font-size: 18px;
+}
+section{
+  height:100%;
+  border-top: solid 1px rgb(189, 189, 189);
+  margin-bottom: 200px;
+}
+
+.page-cover{
+    background: #fff fixed;
+    background-size: cover;
+    display: table;
+    height:100%;
+    width: 100%;
+}
+
+.down{
+  display:inline-block;
+}
+
+.site-title{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    text-align:center;
+    vertical-align:middle;
+}
+
+#canvas{
+  height: 100%;
+  width: 100%;
+}
+
+.section-title{
+    display: table-cell;
+    text-align:center;
+    vertical-align:middle;
+
+}
+
+
+
+.titleName{
+  font-size: 2rem;
+}
+
+h2{
+  text-align: center;
+  font-size: 2rem;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.second-page{
+  background-color: rgb(235, 162, 135);
+  color: rgb(255, 255, 255);
+}
+
+.third-page{
+  background-color: rgb(133, 224, 83);
+  color: rgb(255, 255, 255);
+}
+
+.forth-page{
+  background-color: rgb(105, 214, 185);
+  color: rgb(255, 255, 255);
+}
